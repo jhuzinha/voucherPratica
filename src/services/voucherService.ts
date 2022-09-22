@@ -51,7 +51,7 @@ function applyDiscount(value: number, discount: number) {
   return value - value * (discount / 100);
 }
 
-export default {
+export {
   createVoucher,
   applyVoucher
 };
